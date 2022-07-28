@@ -1,0 +1,11 @@
+{
+	"devDependencies": {
+		"esbuild": "^0.14.50"
+	},
+	"scripts": {
+		"build": "esbuild index.js --bundle --outfile=dist.js --platform=browser --target=es2020"
+	},
+	"dependencies": {
+		"@nastyox/rando.js": "^2.0.5"
+	}
+}
